@@ -1,0 +1,1 @@
+INSERT INTO `kendb`.`order_details` (`orders_idorder`, `product_productId`, `quantity`, `unitPrice`, `order_details_status_idorder_details_status`) VALUES ('20', '3', '2', '139', '1');

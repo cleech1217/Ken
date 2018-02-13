@@ -1,0 +1,1 @@
+select queue as 'Q#',idorder as 'Order ID',order_status.description as 'Status' from orders inner join order_status on orders.order_status_idorder_status=order_status.idorder_status where orders.order_status_idorder_status!=3;

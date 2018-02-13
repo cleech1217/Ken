@@ -1,0 +1,1 @@
+SELECT product.name as 'Description', order_details.quantity as 'Qty', order_details.quantity*order_details.unitPrice as 'Total' FROM kendb.order_details inner join kendb.product on order_details.product_productId=product.productId where order_details.orders_idorder=1;
